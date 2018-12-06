@@ -50,7 +50,7 @@ public class _27_MatrixRotation {
 		int i = 0, j = 0;
 		while(i < M && j < N) {
 			if(j == 0) {
-				matrisx[i + 1][j] = matrix[i][j];
+				matrix[i + 1][j] = matrix[i][j];
 				i ++;
 			} else if(i == 0) {
 				

@@ -36,7 +36,7 @@ public class _11_ReverseShuffleMerge {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		String S = in.readLcine();
+		String S = in.readLine();
 		
 		String S_Reverse = reverse(S);
 		String S_Shuffle = reverse(S);
